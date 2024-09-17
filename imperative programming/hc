@@ -1,0 +1,53 @@
+i = 0
+while i < 3:
+    print("*" * i, end="")
+    i += 1
+print("!")
+
+you get ***!
+------------------
+i = 0
+while i < 3:
+    print("*" * i, end, "\n"
+    i += 1
+print("!")
+
+you get it seperated, underneath
+*
+**
+!
+------------------
+import random
+
+number = random.randrange(start1, stop 10)
+print("please enter your guess...")
+guess = int(input())
+while guess != number:
+    if guess > number
+        print("that's too high")
+    else: #guess must be lower than the guest number
+        print("that's too low...")
+    guess = int(input())
+print("that's right! The right number was", number)
+
+!= means the guess is not equal to the number
+-----------------
+sum_numbers = 0
+print("please enter your numbers.")
+number = int(input())
+while number !=0:
+    sum_numbers += number #telt vanaf 0
+    number = int(input()) #stopt totdat alles van de input is opgeteld bij elkaar
+print("the total sum of those numbers equals", sum_numbers)
+-------------------
+
+print("The primes below 100 are:")
+number = 2
+while number < 100:
+------------------
+met len kun je aantal karakters aanvragen in een string, if it has a strength has 12 characters, when asking a charachter it counts up
+till 11. max print [11] for last character or [-1]. for the first [-12].
+[1:-1] gives ello world e.g.
+
+message = "ten"
+print (message > "tem")
